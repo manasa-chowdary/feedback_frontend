@@ -4,7 +4,7 @@ export default function Admin() {
     const [feedbacks,setFeedback]=useState([]);
 
     async function getFeedback(){
-        const response =await  axios("http://localhost:3000/feedbacks");
+        const response =await  axios("http://https://feedback-backend-xmpo.onrender.com/feedbacks");
         setFeedback(response.data)
         console.log(response.data)
     }

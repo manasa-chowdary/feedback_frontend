@@ -14,7 +14,7 @@ export default function Register() {
         return;
       }
       //axios post request
-      const response = await axios.post("http://localhost:3000/register", {
+      const response = await axios.post("http://https://feedback-backend-xmpo.onrender.com/register", {
         email,
         password,
       });
